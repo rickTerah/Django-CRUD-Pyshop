@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h3>{{object.title}}</h3>
+    <p>{{object.price}}</p>
+    <p>{{object.stock}}</p>
+    <p><a href="update/">Update</a><a href="delete/">Delete</a></p>
+{% endblock %}
